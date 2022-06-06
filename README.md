@@ -15,3 +15,5 @@ python compilec.py {c_files_name} {args}
 
 *Args*
 * -all : Compile all c files in the folder
+* -c {path_to_compiler}: Compile the c file with the given path to the compiler (default is gcc)
+* -o {path_to_output}: The output file name (default is the same as the c file name) **If this option is used with -all, all c files will keep their names but will be compiled in a folder (the path given)**
