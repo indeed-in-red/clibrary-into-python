@@ -5,6 +5,7 @@
 * Place the python and bash file in the same folder as the c library uncompiled
 * Execute : (replace {c_file_name} with the name of the c files)
 ```bash 
+chmod +x compilec
 ./compilec {c_files_name} {args}
 ```
 or 
