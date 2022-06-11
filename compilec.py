@@ -2,7 +2,7 @@ from os import path, listdir
 from sys import argv
 from typing import List
 
-def getAllFiles(directory:str, args) -> List[str]:
+def getAllFiles(directory:str) -> List[str]:
     files = []
     for file in listdir(directory):
         if file.endswith('.c') and path.isfile(path.join(directory, file)):
