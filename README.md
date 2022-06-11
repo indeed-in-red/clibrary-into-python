@@ -1,6 +1,7 @@
 # clibrary-into-python
 
 # DOES NOT WORK YET
+# ONLY WORKS ON UNIX SYSTEMS
 
 **_Make c file importable in python_**
 
